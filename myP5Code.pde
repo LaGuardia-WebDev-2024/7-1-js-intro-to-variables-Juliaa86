@@ -21,9 +21,9 @@ void draw(){
 
   ellipse(200, 170, 150, 150);    // face
 
-  
-  ellipse(170, 150, 20, 30);  // left eye
-  ellipse(230, 150, 15, 15);  // right eye
+  fill(0,0,0);
+  ellipse(170, 150, eyeSize, eyeSize);  // left eye
+  ellipse(230, 150, eyeSize, eyeSize);  // right eye
 
   line(150, 200, 250, 200);   // mouth
 
